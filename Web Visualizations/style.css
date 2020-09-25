@@ -1,0 +1,135 @@
+body {
+	background-color: 
+}
+h1 {
+	margin-bottom: 15px;
+    font-size: 55px;
+    color: rgb(255, 247, 0);
+	background-color: light;
+	text-align: center;
+	}
+h2 {
+	font-size: 30 px;
+	color: rgb(255, 228, 72);
+	text-align: center;
+	background-color: lightslategray;
+
+	}
+h3{
+	margin-top: 10px;
+	margin-bottom: 25px;
+	text-align: left;
+	font-size: 20 px;
+	
+	}
+
+.header {
+	font-size: 100px;
+	background-color: light;
+	font-family: normal;
+	font-style: normal;
+}
+.pagetitle {
+	font-size: 80px;
+	background-color: transparent;
+	font-family: normal;
+	font-style: normal;
+}
+
+.box {
+	min-height: 50px;
+	padding: 5px;
+	padding-top: 20px;
+	margin: 5px;
+	font-weight: 800;
+	text-decoration-line: underline;
+	color: #fff;
+	line-height: 40px;
+	background: lightslategray
+
+  }
+
+.box a {  
+	color: #fff;
+	line-height: 40px;
+  }
+.linespace {
+	margin-bottom: 150px
+}
+/* The side navigation menu */
+.sidebar {
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: lightslategrey;
+	height: 500px;
+	overflow: auto;
+  }
+  
+/* Sidebar links */
+.sidebar a {
+	display: block;
+	color: black;
+	padding: 16px;
+	text-decoration: none;
+  }
+  
+/* Active/current link */
+.sidebar a.active {
+	background-color: light;
+	color: white;
+  }
+  
+  /* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+	background-color: rgb(143, 143, 143);
+	color: white;
+  }
+  
+/* Page content */
+.content {
+	margin-left: auto;
+	padding: 5px 16px;
+	height: auto;
+  }
+.sidebar img {
+	border: 1px solid #ddd; /* Gray border */
+	border-radius: 4px;  /* Rounded border */
+	padding: 5px; /* Some padding */
+	width: 150px; /* Set a small width */
+  }
+.navbar {
+	padding: 10px;
+	background: lightsteelblue
+}
+
+.navbar li {
+	display: inline-block;
+	padding: 20px;
+	margin-right: 10px;
+	margin-left: 10 px;
+	cursor: pointer;
+	background: whitesmoke;
+	border-radius: 3px;
+}
+
+.navbar li a{
+	color: black;
+	text-decoration: none
+}
+  
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+	.sidebar {
+	  position: relative;
+	  width: 100%;
+	  height: auto;
+/* visibility: hidden; */
+	}
+	.sidebar a {
+		float: left;
+	}
+	.smallscreen {
+		background-color: white;
+	}
+}
