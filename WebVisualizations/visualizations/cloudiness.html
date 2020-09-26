@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Data Home</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar smallscreen d-flex">
+    <div>
+      <ul class="nav justify-content-end">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item active dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+            <a class="dropdown-item" href="comparison.html">Comparison</a>
+            <a class="dropdown-item" href="data.html">Data</a>
+          </div>
+      </ul>
+    </div>
+  </nav>
+  <div class="row content">
+
+    <div class="container col-md-10">
+      <div class="container">
+        <div class="jumbotron content">
+          <h1 class="display-4" id="hometitle">Latitude vs. Cloudiness</h1>
+          <p class="lead text-center">A look into how latitude affects weather. </p>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="row content">
+          <div class="col-md-12">
+            <p class="lead text-center">
+              <img src="images/Fig3.png" class="center"></a>
+            <p>One trend I thought was interesting was that cloudiness percentage seems to be higher in cities closer to the equator. When we broke up our data into southern and northern hemispheres the liner regression models helped us see this pattern which otherwise we might have missed in our previous models.</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row content">
+          <div class="col-md-3">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="box">
+            <ul>
+              <li><a href="https://openweathermap.org/api">Open Weather API</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+        </div>
+      </div>
+      <div class="container">
+        <div class="row linespace">
+
+        </div>
+      </div>
+    </div>
+    <div class="sidebar col-md-2">
+      <a class="active" href="index.html"><img src="images/equatorsign.png">Home</a>
+      <a href="max_temp.html"><img src="images/Fig1.png"> Max Temperature</a>
+      <a href="humidity.html"><img src="images/Fig2.png"> Humidity</a>
+      <a href="cloudiness.html"><img src="images/Fig3.png"> Cloudiness</a>
+      <a href="wind_speed.html"><img src="images/Fig4.png"> Wind Speed</a>
+      <a href="comparison.html"><img src="images/Fig1.png"> Comparison</a>
+      <a href="data.html"><img src="images/Fig1.png"> Data</a>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
