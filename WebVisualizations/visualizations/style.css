@@ -36,6 +36,24 @@ h3{
 	font-style: normal;
 }
 
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+	flex: 50%;
+	max-width: 50%;
+  }
+  
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+  }
+
 .box {
 	min-height: 50px;
 	padding: 5px;
@@ -65,6 +83,7 @@ h3{
 	height: 500px;
 	overflow: auto;
   }
+
   
 /* Sidebar links */
 .sidebar a {
@@ -93,10 +112,10 @@ h3{
 	height: auto;
   }
 .sidebar img {
-	border: 1px solid #ddd; /* Gray border */
-	border-radius: 4px;  /* Rounded border */
-	padding: 5px; /* Some padding */
-	width: 150px; /* Set a small width */
+	border: 1px solid #ddd; 
+	border-radius: 4px;  
+	padding: 5px; 
+	width: 150px; 
   }
 .navbar {
 	padding: 10px;
