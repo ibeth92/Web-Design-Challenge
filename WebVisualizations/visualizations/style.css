@@ -108,7 +108,7 @@ h3{
 /* Page content */
 .content {
 	margin-left: auto;
-	padding: 5px 16px;
+	margin-right: auto
 	height: auto;
   }
 .sidebar img {
