@@ -23,6 +23,12 @@ h3{
 	
 	}
 
+.center {
+	display: block;
+	margin-left: auto;
+	justify-content:center
+}
+
 .header {
 	font-size: 100px;
 	background-color: light;
